@@ -33,21 +33,34 @@
       </ul>
     </nav>
   </header>
- <!-- signup -->
-  <div class="background-page">
-    <div class="form-container">
-        <div class="form-box">
-            <h2>Sign up</h2>
-            <form action="#" method="POST">
-                <div class="form-group">
-                    <label for="signup-name" name="name" placeholder="Your full name" required></label>
-                </div>
-                
-
-            </form>
-        </div>
-    </div>
+ <!-- signup page  -->
+ <div class="background-page">
+  <div class="form-container">
+      <div class="form-box">
+          <h2>Sign Up</h2>
+          <form action="#" method="POST">
+              <div class="form-group">
+                  <label for="signup-name">Full Name</label>
+                  <input type="text" id="signup-name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                  <label for="signup-email">Email Address</label>
+                  <input type="email" id="signup-email" name="email" placeholder="Your email address" required>
+              </div>
+              <div class="form-group">
+                  <label for="signup-password">Password</label>
+                  <input type="password" id="signup-password" name="password" placeholder="Create a password" required>
+              </div>
+              <div class="form-group">
+                  <label for="signup-phone">Phone Number</label>
+                  <input type="tel" id="signup-phone" name="phone" placeholder="Your phone number" required>
+              </div>
+              <button type="submit">Sign Up</button>
+          </form>
+          <p>Already have an account? <a href="login.html">Login here</a></p>
+      </div>
   </div>
+  
 
        <!-- This is a footer section  -->
        <footer>
